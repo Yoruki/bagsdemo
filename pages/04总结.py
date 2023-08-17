@@ -1,7 +1,4 @@
-import cv2
 import streamlit as st
-from PIL import Image
-import pytesseract
 
 st.subheader("# 总结 ")
 
