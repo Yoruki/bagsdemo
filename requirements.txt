@@ -71,7 +71,6 @@ PySocks
 pytesseract==0.3.10
 python-dateutil
 pytz
-pywin32==305.1
 PyYAML==6.0
 pyzmq==25.1.0
 requests
