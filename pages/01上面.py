@@ -31,13 +31,15 @@ if st.sidebar.button('提取关键帧'):
     image_kotuclose = Image.open('up/image_filtered.jpg')
     st.image(image_kotuclose, caption='关键帧二值化抠图')
 
+    # 加入边界
+    img_boundary = Image.open('up/boundary.jpg')
+    st.image(img_boundary, caption='关键帧边界')
+
     # 关键帧抠图
     image_kotu = Image.open('up/kotu.jpg')
     st.image(image_kotu, caption='关键帧抠图')
 
-    # 加入边界
-    img_boundary = Image.open('up/boundary.jpg')
-    st.image(img_boundary, caption='关键帧边界')
+
 
 
 
